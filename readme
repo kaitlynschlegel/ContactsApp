@@ -1,0 +1,1 @@
+for the maps portion of the contacts app to work, an api key will need to be placed into the android manifest file. the string variable is called apiKey.
