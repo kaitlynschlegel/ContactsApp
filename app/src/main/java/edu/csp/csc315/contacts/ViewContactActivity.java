@@ -1,7 +1,6 @@
 package edu.csp.csc315.contacts;
 
 import android.content.Intent;
-import android.graphics.Camera;
 import android.location.Address;
 import android.location.Geocoder;
 import android.net.Uri;
@@ -116,9 +115,9 @@ public class ViewContactActivity extends AppCompatActivity implements OnMapReady
         });
 
         // change the address to a latLng
-        //geoLocate();
+        geoLocate();
         // initialize the map
-        //initGoogleMap(savedInstanceState);
+        initGoogleMap(savedInstanceState);
     }
 
     /*

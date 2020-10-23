@@ -17,7 +17,7 @@
         <!-- api information to use Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBAJWzbwwluLmtqx5J4jO-EMRvZqqC_GSI" />
+            android:value= "@string/apiKey"/>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
